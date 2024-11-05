@@ -8,17 +8,16 @@
         </h3>
         <span>
           {{ education.institution }}
-          {%- if education.focus -%}
-          , <span class="focus">
-            Focus: {{ education.focus }}
-          </span>
-          {%- endif %}
         </span>
+        {%- if education.focus -%}
+        <span>
+          {{ education.focus }}
+        </span>
+        {%- endif %}
         <span class="date">
           {{ education.startDate }} &ndash; {{ education.endDate }}
         </span>
       </header>
     </section>
-
   {%- endfor %}
 </section>

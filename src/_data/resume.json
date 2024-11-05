@@ -1,105 +1,288 @@
 {
     "basics": {
-        "name": "Michael Engen",
-        "label": "Full-Stack Software Developer",
-        "email": "resume@michaelengen.com",
-        "url": "michaelengen.com",
+        "name": "Dominik Zabroń",
+        "label": "Senior Software Engineer",
+        "email": "dominik.zabron@gmail.com",
+        "url": "",
         "location": {
-            "city": "Columbus",
-            "region": "OH",
-            "countryCode": "US"
+            "city": "Cracow",
+            "region": "",
+            "countryCode": "PL"
         },
-        "summary": "I am a software developer skilled in full-stack development, technical writing, and scientific programming. Passionate about helping others through technology, I've built end-to-end testing tools, crafted extensive documentation, and worked directly with developers to identify product improvements. I value communication highly and have great experience presenting technical content, including six years of teaching experience, multiple published research papers, and presentations to technical and non-technical audiences.",
-        "profiles": [
-            {
-                "network": "in/michael-engen",
-                "url": "https://www.linkedin.com/in/michael-engen/"
-            }
-        ]
+        "summary": "Result-oriented Software Engineering Professional with over 14 years of experience in developing and optimizing software solutions across diverse industries. Skilled in stakeholder communication, ensuring alignment of software architecture with business objectives to drive successful outcomes. Proven leadership experience in guiding cross-functional teams, with strong mentoring and code-review skills that foster a culture of quality and collaboration. Proficient in Python and experienced in leveraging various database technologies to build robust, scalable applications. Demonstrated ability to design and implement efficient data processing pipelines, enhance system performance, and support data-driven decision-making. Familiar with JavaScript, enabling effective collaboration with front-end development teams. Possesses hands-on cloud experience, utilizing cloud platforms to enhance application scalability and deployment efficiency. Strong analytical and problem-solving skills, committed to delivering high-quality solutions that meet business goals.",
+        "profiles": [],
+        "phone": "(+48) 790 747 110"
     },
     "work": [
         {
-            "name": "PayPal, remote",
-            "position": "Integration Engineer III",
-            "startDate": "2021",
-            "endDate": "Present",
+            "name": "Cisco Systems",
+            "position": "Senior Software Engineering Consultant",
+            "startDate": "2019.07",
+            "endDate": "2024.03",
             "highlights": [
-                "Designed and developed full-stack application with Flask and Javascript for configuring and testing REST APIs in conjunction with frontend SDKs",
-                "Crafted extensive technical documentation and sample code for new product features to accelerate product adoption",
-                "Gathered product and documentation feedback by collaborating directly with external developers"
+                "Led cross-functional teams in designing, developing, and deploying scalable software solutions, significantly improving client operations and reducing project delivery time",
+                "Collaborated closely with stakeholders to define requirements and align software architecture with business goals, resulting in optimized performance and cost efficiency",
+                "Conducted in-depth code reviews and provided mentorship to junior engineers from diverse cultures, enhancing code quality, security, and overall team productivity",
+                "Developed and implemented automated testing suites and CI/CD pipelines, reducing release cycles and improving deployment reliability",
+                "Delivered data-driven insights and strategic guidance to clients on software best practices, helping organizations modernize legacy systems and adopt innovative technologies",
+                "Spearheaded the development of a data mesh platform, enhancing data accessibility and governance across departments to foster decentralized data ownership and streamlined analytics",
+                "Architected a workflow orchestration system that optimized task automation, reducing manual effort and improving process efficiency across support operations",
+                "Built a remote development kit, enabling secure, efficient remote management capabilities that streamlined device connectivity and remote administration",
+                "Designed and implemented a log anomaly detection system that leveraged machine learning to proactively identify network irregularities, and enhancing operational resilience"
             ]
         },
         {
-            "name": "Bridgerock Data",
+            "name": "ReSpo.Vision",
+            "position": "Lead Developer",
+            "startDate": "2021.02",
+            "endDate": "2022.03",
+            "highlights": [
+                "Designed and optimized high-throughput data ingestion pipelines, processing thousands of live records daily from diverse external APIs to support advanced statistical analysis",
+                "Established data quality assurance protocols, ensuring accurate, clean data flow through the pipeline and minimizing discrepancies for reliable insights",
+                "Collaborated with data scientists and analysts to tailor data structures and workflows, facilitating rapid access to actionable insights and supporting data-driven decision-making"
+            ]
+        },
+        {
+            "name": "William Hill",
+            "position": "Senior Full-Stack Developer",
+            "startDate": "2018.07",
+            "endDate": "2019.03",
+            "highlights": [
+                "Architected and developed a dynamic landing page generator, enabling marketing teams to create and deploy campaign-specific pages quickly",
+                "Implemented a modular, user-friendly interface and backend system, allowing seamless customization of landing pages while maintaining brand consistency and optimizing for conversion"
+            ]
+        },
+        {
+            "name": "William Hill",
+            "position": "Senior Python Developer",
+            "startDate": "2017.11",
+            "endDate": "2018.06",
+            "highlights": [
+                "Developed secure APIs to integrate with front-end systems, payment gateways, and third-party providers, enabling seamless communication and interoperability across platforms",
+                "Collaborated with cross-functional teams to improve payout calculations, and ensure fair play and regulatory adherence in the backend logic"
+            ]
+        },
+        {
+            "name": "Cherry Group",
+            "position": "Senior Python Developer",
+            "startDate": "2016.09",
+            "endDate": "2017.10",
+            "highlights": [
+                "Engineered a high-performance backend system to handle large volumes of real-time transactions, ensuring low latency and high availability in compliance with gaming regulations",
+                "Optimized data storage and retrieval processes, leveraging caching and database indexing to achieve sub-second response times for critical game functions",
+                "Built automated monitoring and alerting systems, enabling proactive detection and resolution of backend issues, reducing downtime and improving user experience"
+            ]
+        },
+        {
+            "name": "FutureMind",
+            "position": "Python Developer",
+            "startDate": "2016.01",
+            "endDate": "2016.08",
+            "highlights": [
+                "Designed RESTful APIs tailored for mobile app requirements, enabling efficient data exchange and optimizing app performance across multiple devices and network conditions",
+                "Integrated third-party services and APIs to enhance app functionality, such as real-time notifications and analytics, supporting a seamless user experience and geolocation services"
+            ]
+        },
+        {
+            "name": "Sesto",
             "position": "Software Engineer",
-            "startDate": "2020",
-            "endDate": "2021",
+            "startDate": "2015.06",
+            "endDate": "2015.12",
             "highlights": [
-                "Created, managed, and migrated PostgreSQL databases in a data lake architecture",
-                "Identified external stakeholders' business-intelligence needs and produced custom SQL-powered reports for analyzing key performance indicators",
-                "Implemented a new database and computing infrastructure using Docker, shell, and AWS",
-                "Collaborated in an agile development environment and gained experience in a fast-paced startup"
+                "Developed a robust inventory management system for real-time tracking and analysis of inventory levels, accessible via web and mobile devices"
             ]
         },
         {
-            "name": "University of Florida",
-            "position": "Software Developer",
-            "startDate": "2018",
-            "endDate": "2020",
+            "name": "SKOK Piast",
+            "position": "Data Analyst / Senior Data Analyst",
+            "startDate": "2013.08",
+            "endDate": "2015.03",
             "highlights": [
-                "Developed an open-source online learning platform for mathematics instructors",
-                "Worked directly with users to collect and implement product feedback"
+                "Developed automated reporting dashboards to provide real-time insights into credit, interest rate, and liquidity risks, enabling faster, data-driven decision-making for risk management teams",
+                "Built and maintained data pipelines that aggregated and processed risk metrics from various sources, ensuring data accuracy and reliability for comprehensive risk assessments",
+                "Conducted in-depth analysis of historical and current financial data, identifying trends and patterns to support strategic risk mitigation and compliance with regulatory standards"
             ]
         },
         {
-            "name": "Université Paris 13",
-            "position": "Chateaubriand Research Fellow",
-            "startDate": "2019",
-            "endDate": "2019",
-            "period": "Fall&nbsp;2019",
+            "name": "PwC",
+            "position": "Data Analyst Intern",
+            "startDate": "2012.11",
+            "endDate": "2013.02",
             "highlights": [
-                "Wrote successful application for a research collaboration with French computer scientists",
-                "Conducted novel mathematical research in a multicultural environment"
+                "Analyzed large datasets of journal entries to identify anomalies and ensure data integrity, supporting accurate financial reporting and compliance with auditing standards"
             ]
         },
         {
-            "name": "Oak Ridge National Laboratory",
-            "position": "NSF Mathematical Sciences Graduate Intern",
-            "startDate": "May&nbsp;2017",
-            "endDate": "July&nbsp;2017",
-            "period": "Summer&nbsp;2017",
+            "name": "PKP Energy",
+            "position": "Data Analyst Intern",
+            "startDate": "2011.07",
+            "endDate": "2011.09",
             "highlights": [
-                "Developed a graph mining algorithm as a method of natural language feature selection for machine learning classification project"
+                "Conducted comprehensive research and analysis on wholesale energy price trends, delivering actionable insights to support pricing strategies and market forecasting"
             ]
         }
     ],
     "education": [
         {
-            "institution": "University of Florida",
-            "area": "Mathematics",
-            "studyType": "Doctor of Philosophy",
-            "studyTypeShort": "Ph.D.",
-            "startDate": "2017",
-            "endDate": "2021",
-            "dissertation": "*Universal Combinatorial Structures*",
-            "focus": "Discrete Mathematics"
+            "institution": "Fachhochschule des BFI Wien, University of Economics in Katowice",
+            "area": "Finance and Accounting",
+            "studyType": "Joint Master Programme",
+            "studyTypeShort": "MA",
+            "startDate": "2010",
+            "endDate": "2012",
+            "focus": "Quantitative Asset and Risk Management"
         },
         {
-            "institution": "University of Florida",
-            "area": "Mathematics",
-            "studyType": "Master of Science",
-            "studyTypeShort": "M.S.",
-            "startDate": "2015",
-            "endDate": "2017",
-            "focus": "Discrete Mathematics"
+            "institution": "University of Economics in Katowice",
+            "area": "Finance and Accounting",
+            "studyType": "Bachelor",
+            "studyTypeShort": "BA",
+            "startDate": "2007",
+            "endDate": "2010",
+            "focus": "Financial analyst"
+        }
+    ],
+    "skills": [
+        {   
+            "name": "Backend Development",
+            "level": "",
+            "keywords": [
+                "Python (13 years)",
+                "Django",
+                "FastAPI",
+                "Flask",
+                "Django REST",
+                "Falcon",
+                "SQLAlchemy",
+                "SQLModel",
+                "Pydantic",
+                "AsyncIO",
+                "Celery",
+                "RabbitMQ",
+                "Node.js",
+                "Express.js"
+            ]
         },
         {
-            "institution": "University of Florida",
-            "area": "Mathematics",
-            "studyType": "Bachelor of Science",
-            "studyTypeShort": "B.S.",
-            "startDate": "2013",
-            "endDate": "2015"
+            "name": "Frontend Development",
+            "level": "",
+            "keywords": [
+                "JavaScript (4)",
+                "React",
+                "Vue.js",
+                "jQuery",
+                "HTML",
+                "CSS",
+                "LESS",
+                "Bootstrap",
+                "Tailwind CSS"
+            ]
+        },
+        {
+            "name": "Data Engineering",
+            "level": "",
+            "keywords": [
+                "Pandas (4)",
+                "NumPy",
+                "SciPy",
+                "Scikit-learn",
+                "Prefect",
+                "Statsmodels",
+                "PyCaret",
+                "RandomForest",
+                "XGBoost",
+                "Streamlit",
+                "Matplotlib",
+                "Seaborn",
+                "Plotly",
+                "Jupyter Notebooks",
+                "ETL",
+                "Data Pipelines",
+                "Data Processing",
+                "Data Analysis",
+                "Anomaly Detection"
+            ]
+        },
+        {
+            "name": "Databases",
+            "level": "",
+            "keywords": [
+                "PostgreSQL (7)",
+                "MySQL (2)",
+                "Microsoft SQL Server (3)",
+                "Redis",
+                "DynamoDB",
+                "MongoDB",
+                "InfluxDB",
+                "PostGIS",
+                "SQLite",
+                "DuckDB",
+                "Data Mesh"
+            ]
+        },
+        {
+            "name": "DevOps",
+            "level": "",
+            "keywords": [
+                "Docker (6)",
+                "Docker Compose",
+                "Docker Swarm",
+                "Ansible",
+                "Nginx",
+                "AWS",
+                "Oracle Cloud",
+                "Heroku",
+                "Ubuntu",
+                "CentOS",
+                "CI/CD",
+                "GitLab",
+                "GitHub",
+                "Git"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Polish",
+            "fluency": "Native"
+        },
+        {
+            "language": "English",
+            "fluency": "C1"
+        },
+        {
+            "language": "German",
+            "fluency": "B1"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Distant travel",
+            "keywords": []
+        },
+        {
+            "name": "Gardening",
+            "keywords": []
+        },
+        {
+            "name": "Foreign languages",
+            "keywords": []
+        },
+        {
+            "name": "History books",
+            "keywords": []
+        },
+        {
+            "name": "Strategy games",
+            "keywords": []
+        },
+        {
+            "name": "Football (soccer)",
+            "keywords": []
+        },
+        {
+            "name": "Investing",
+            "keywords": []
         }
     ]
 }

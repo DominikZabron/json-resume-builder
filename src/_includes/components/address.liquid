@@ -13,6 +13,21 @@
   </a>
   {%- endif -%}
 
+  {% comment %} E.g., city {% endcomment %}
+  {% if basics.location.city and basics.location.countryCode -%}
+  <span>
+      {{- basics.location.city -}}, {{- basics.location.countryCode -}}
+  </span>
+  {%- endif -%}
+
+  {% comment %} E.g., mobile {% endcomment %}
+  {% if basics.phone -%}
+  <a href="tel:{{ basics.phone }}">
+    {{- basics.phone -}}
+  </a>
+  {%- endif -%}
+
+
   {%- if basics.email %}
   <a href="mailto:{{ basics.email }}">
     {{- basics.email -}}

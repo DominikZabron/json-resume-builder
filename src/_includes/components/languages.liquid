@@ -1,0 +1,8 @@
+<section>
+  <h2>Languages</h2>
+  {%- for language in resume.languages %}
+    <section>
+      <span><strong>{{ language.language }}:</strong> {{ language.fluency }}</span>
+    </section>
+  {%- endfor %}
+</section>

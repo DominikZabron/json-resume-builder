@@ -25,12 +25,24 @@
       summary: resume.basics.summary 
     %}
     {% 
+      include "components/skills.liquid", 
+      skills: resume.skills
+    %}
+    {% 
       include "components/experience.liquid", 
       work: resume.work
     %}
     {% 
       include "components/education.liquid", 
       education: resume.education
+    %}
+    {% 
+      include "components/languages.liquid",
+      languages: resume.languages
+    %}
+    {% 
+      include "components/interests.liquid",
+      interests: resume.interests
     %}
   </main>
 </body>

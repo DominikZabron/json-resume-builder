@@ -22,7 +22,7 @@ html {
   }
 
   html {
-    font-size: 10pt;
+    font-size: 9.25pt;
   }
 
   body {
@@ -35,6 +35,20 @@ html {
     li {
       padding-inline-start: 0.25rem !important;
     }
+  }
+
+  /* Individual elements should not break internally */
+  main > section > section {
+    break-inside: avoid;
+  }
+
+  .tag-list {
+    break-inside: avoid;
+  }
+
+  /* Allow breaks between sections */
+  main > section {
+    break-inside: auto;
   }
 }
 
@@ -76,6 +90,10 @@ body {
       font-size: 0.9rem;
       line-height: 1.6;
 
+      &>span::after {
+        content: '🏠';
+      }
+
       &>a {
         display: block;
         white-space: pre;
@@ -89,7 +107,7 @@ body {
           right: 0.5pt;
         }
 
-        &[href*='michaelengen.com']::after {
+        &[href*='github.com']::after {
           content: '🌐';
         }
 
@@ -179,8 +197,9 @@ body {
 
             font-weight: lighter;
 
-            &>.focus {
-              text-transform: lowercase;
+            &.focus {
+              grid-column: 1 / -1;
+              font-style: italic;
             }
 
             &.date {
@@ -194,6 +213,36 @@ body {
 
         &>ul {
           padding-inline-start: 1rem;
+        }
+      }
+
+      .tag-list {
+        grid-column: 2 / 3;
+        margin-block-end: 0.25rem;
+
+        &>header {
+          &>h3 {
+            font-weight: bolder;
+            margin-block-end: 0.15rem;
+          }
+        }
+
+        &>ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.5rem;
+          max-width: 100%;
+
+          &>li {
+            background: #f0f0f0;
+            padding: 0.1rem 0.25rem;
+            border-radius: 3px;
+            font-size: 0.85rem;
+            white-space: nowrap;
+          }
         }
       }
     }
@@ -224,6 +273,14 @@ body {
             &>span.date {
               grid-row: 2;
             }
+          }
+        }
+
+        .tag-list {
+          grid-column: 1 / -1;
+
+          &>ul {
+            justify-content: flex-start;
           }
         }
       }

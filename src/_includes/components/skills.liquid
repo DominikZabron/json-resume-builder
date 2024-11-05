@@ -1,0 +1,15 @@
+<section>
+  <h2>Skills</h2>
+  {%- for skillGroup in skills %}
+    <section class="tag-list">
+      <header>
+        <h3>{{ skillGroup.name }}</h3>
+      </header>
+      <ul>
+        {%- for keyword in skillGroup.keywords %}
+          <li>{{ keyword }}</li>
+        {%- endfor %}
+      </ul>
+    </section>
+  {%- endfor %}
+</section> 
